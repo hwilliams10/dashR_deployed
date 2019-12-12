@@ -16,6 +16,7 @@ options(tidyverse.quiet = TRUE,
         repr.plot.height = 5)
 library('scales')
 library(readr)
+library(purrr)
 
 
 
