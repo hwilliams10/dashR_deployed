@@ -22,7 +22,7 @@ library(readr)
 app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.css")
 
 #read in movies df
-df_movies <- read_csv("data/movies_data_clean.csv") %>% 
+df_movies <- read_csv("https://raw.githubusercontent.com/hwilliams10/dashR_deployed/master/data/movies_data_clean.csv") %>% 
   mutate(worldwide_gross = worldwide_gross/1000000) %>% 
   mutate(worldwide_adj = worldwide_adj/1000000) %>% 
   mutate(worldwide_profit_gross = worldwide_profit_gross/1000000) %>% 
