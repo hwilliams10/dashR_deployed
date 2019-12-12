@@ -14,8 +14,8 @@ library(plotly)
 options(tidyverse.quiet = TRUE,
         repr.plot.width = 6,
         repr.plot.height = 5)
-library(ggridges) 
 library('scales')
+library(readr)
 
 
 
